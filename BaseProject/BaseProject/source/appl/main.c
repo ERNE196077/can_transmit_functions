@@ -66,15 +66,7 @@ extern int main( void )
   
   MemAllocInit();
   printf( "\n\r-- Memory Allocation Initialized!!! --\n\r" ) ;
-  
-  MCAN_Init(&mcan1Config);
-  printf( "\n\r-- MCAN driver Initialized!!! --\n\r" ) ;
-  
-  /*MCAN_InitTxQueue(loc_mcan_Config);
-  printf( "\n\r-- MCAN Tx Queue Initialized!!! --\n\r" ) ;*/
-  
-  MCAN_Enable(&mcan1Config);
-  printf( "\n\r-- MCAN Enabled!!! --\n\r" ) ;
+
 
   	/* Initialize Task Scheduler */
 	vfnScheduler_Init(&array_func[0]);
