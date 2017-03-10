@@ -4,14 +4,7 @@
 #include "board.h"
 #include "chip.h"
 
-#define _MCAN_DBG_
-
-uint8_t  * MCAN_ConfigTxDedBuffer( 
-  const MCan_ConfigType * mcanConfig, 
-  uint8_t buffer, 
-  uint32_t id, 
-  MCan_IdType idType, 
-  MCan_DlcType dlc );
+#define _CANIF_DBG_
 
 
 static const CanIf_MsgObjType *CanInternMsgConfig;
@@ -33,20 +26,19 @@ void CanIf_Init(uint8_t CanChannelId, CanIf_MsgObjType CanIfMsgConfig){
 		break;	
 	}
 
-
-
-  /* Save CAN messages configuration to use in the module */
+  /* If not empty save CAN messages configuration to use in the module */
+  if ( CanIfMsgConfig.CanNumberOfMsgs )
   CanInternMsgConfig = &CanIfMsgConfig;
 
   /* Initialize MCAN driver */
   MCAN_Init(mcan_config);
-  #ifdef _MCAN_DBG_
+  #ifdef _CANIF_DBG_
   printf( "\n\r-- MCAN driver Initialized!!! --\n\r" ) ;
   #endif
 
   /* Enable MCAN Channel */
   MCAN_Enable(mcan_config);
-  #ifdef _MCAN_DBG_
+  #ifdef _CANIF_DBG_
   printf( "\n\r-- MCAN Enabled!!! --\n\r" ) ;
   #endif
 
@@ -77,5 +69,45 @@ void CanIf_Init(uint8_t CanChannelId, CanIf_MsgObjType CanIfMsgConfig){
 
 
 void CanIf_Transmit(uint8_t CanChannelId, uint8_t MsgId){
+  
+  CanIf_MessageConfigType *ptrMsgConfig;
+
+  int i;
+  for (i = 0; i < CanInternMsgConfig.CanNumberOfMsgs; i++){
+    if(MsgId == CanInternMsgConfig.CanIfMessageConfig[i]->CanMsgIdNumber ){
+      ptrMsgConfig = CanInternMsgConfig.CanIfMessageConfig[i];
+      break;
+    }
+  }
+
+  /* If the message id was not found OR data buffer pointer is null exit */
+  if (!ptrMsgConfig ){
+    #ifdef _CANIF_DBG_
+    printf( "\n\r-- CANIF::ERROR Message id does not exist. --\n\r" ) ;
+    #endif
+    return;
+  }
+
+  if (!ptrMsgConfig->CanPdu.CanSdu){
+    #ifdef _CANIF_DBG_
+    printf( "\n\r-- CANIF::ERROR TX buffer for message 0x%x not allocated. --\n\r", MsgId ) ;
+    #endif
+    return;
+  }
+
+  /* TODO - Need funtion to write data into the buffer, using test data */
+  uint8_t *ptrTxBuf = ptrMsgConfig->CanPdu.CanSdu;
+  for (i = 0; i < ptrMsgConfig->CanPdu.CanDlc; ++i)
+  {
+    *ptrTxBuf++ = 0x8 ;
+  }
+  
+
+
+
+
+
+
+
 
 }
