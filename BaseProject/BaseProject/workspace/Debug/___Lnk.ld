@@ -49,6 +49,7 @@ C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions
 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\timetick.o 
 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\app_scheduler.o 
 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\Tasks.o 
+C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o 
 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\led.o 
 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o 
 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o 

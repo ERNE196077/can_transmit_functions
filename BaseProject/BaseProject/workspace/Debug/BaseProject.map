@@ -6257,6 +6257,31 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\Tasks.o
  .debug_macro   0x00000000       0x76 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\Tasks.o
  .debug_macro   0x00000000       0x10 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\Tasks.o
+ .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .text          0x00000000        0x0 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .data          0x00000000       0x1c C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .bss           0x00000000        0x0 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_info    0x00000000      0x105 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_abbrev  0x00000000       0x57 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_aranges
+                0x00000000       0x18 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000       0x5e C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000      0x86e C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000       0x22 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000       0x44 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000       0xe3 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000       0x22 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_macro   0x00000000      0x1df C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_line    0x00000000      0x204 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .debug_str     0x00000000     0x3174 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .comment       0x00000000       0x71 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
+ .ARM.attributes
+                0x00000000       0x37 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\led.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\led.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\led.o
@@ -6697,22 +6722,22 @@ Discarded input sections
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .text          0x00000000       0xd8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .text          0x00000000      0x1c8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .data          0x00000000        0x0 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .bss           0x00000000        0xc C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .rodata        0x00000000       0x42 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_info    0x00000000      0x799 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_abbrev  0x00000000      0x143 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .rodata        0x00000000       0xb9 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_info    0x00000000      0x7f8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_abbrev  0x00000000      0x11c C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_aranges
                 0x00000000       0x20 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_macro   0x00000000      0x721 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_macro   0x00000000      0x71b C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000      0x86e C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0x22 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0x44 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0xe3 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0x22 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000      0x1df C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_macro   0x00000000       0x4a C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_macro   0x00000000       0x50 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0x3b C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0x18 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000       0x26 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
@@ -6852,10 +6877,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000      0x122 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .debug_macro   0x00000000      0x452 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_line    0x00000000     0x17d8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_str     0x00000000    0x76f72 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_line    0x00000000     0x180c C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_str     0x00000000    0x76fa0 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .comment       0x00000000       0x71 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
- .debug_frame   0x00000000       0x64 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
+ .debug_frame   0x00000000       0x5c C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .ARM.attributes
                 0x00000000       0x37 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
@@ -6997,13 +7022,13 @@ Discarded input sections
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .group         0x00000000        0x8 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .text          0x00000000        0x0 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
- .data          0x00000000       0x48 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
+ .data          0x00000000       0x68 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .bss           0x00000000        0x5 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
- .debug_info    0x00000000      0x298 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
- .debug_abbrev  0x00000000       0xbb C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
+ .debug_info    0x00000000      0x31c C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
+ .debug_abbrev  0x00000000       0xcc C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .debug_aranges
                 0x00000000       0x18 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
- .debug_macro   0x00000000      0x66d C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
+ .debug_macro   0x00000000      0x678 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .debug_macro   0x00000000      0x86e C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .debug_macro   0x00000000       0x22 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .debug_macro   0x00000000       0x44 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
@@ -7142,8 +7167,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .debug_macro   0x00000000       0x76 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .debug_macro   0x00000000       0x10 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
- .debug_line    0x00000000     0x15d3 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
- .debug_str     0x00000000    0x73c6a C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
+ .debug_line    0x00000000     0x1669 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
+ .debug_str     0x00000000    0x73cba C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .comment       0x00000000       0x71 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
  .ARM.attributes
                 0x00000000       0x37 C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o
@@ -7941,6 +7966,7 @@ LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_func
 LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\timetick.o
 LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\app_scheduler.o
 LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\Tasks.o
+LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o
 LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\led.o
 LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o
 LOAD C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o

@@ -18,6 +18,8 @@
       MCan_IdType CanIdType;
       MCan_DlcType CanDlc;
       uint8_t* CanSdu;
+      uint8_t* CanSduRam;
+      uint8_t u8CanDedBuf;
    }CanIf_PduType;
 
    typedef struct
@@ -35,6 +37,6 @@
 
 
 
-
+extern CanIf_MsgObjType CanMsgObj;
 
 #endif

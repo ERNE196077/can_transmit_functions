@@ -45,17 +45,19 @@ void CanIf_Init(uint8_t CanChannelId, CanIf_MsgObjType CanIfMsgConfig){
   /* Allocate message configurations and buffers */ 
   
   uint8_t i;
-  uint8_t txbuf, rxbuf; 
+  uint8_t txbuf = 0, rxbuf = 0; 
   CanIf_MessageConfigType *ptrMsgConfig;
   for( i = 0 ; i < CanIfMsgConfig.CanNumberOfMsgs ; i++ ){
 
     ptrMsgConfig = &(CanIfMsgConfig.CanIfMessageConfig[i]);
 
     if( ptrMsgConfig->MCanDir == CAN_TX ){
-      ptrMsgConfig->CanPdu.CanSdu = (uint8_t *)MCAN_ConfigTxDedBuffer( mcan_config, txbuf++, ptrMsgConfig->CanPdu.CanId, ptrMsgConfig->CanPdu.CanIdType, ptrMsgConfig->CanPdu.CanDlc );
-
-      /* If Buffer allocation gives an error continues to the next register */
-      if( !ptrMsgConfig->CanPdu.CanSdu ){
+      ptrMsgConfig->CanPdu.CanSduRam = (uint8_t *)MCAN_ConfigTxDedBuffer( mcan_config, txbuf, ptrMsgConfig->CanPdu.CanId, ptrMsgConfig->CanPdu.CanIdType, ptrMsgConfig->CanPdu.CanDlc );
+      ptrMsgConfig->CanPdu.u8CanDedBuf = txbuf++;
+      
+      /* If Buffer allocation gives an error continues to the next register, revert the changes. */
+      if( !ptrMsgConfig->CanPdu.CanSduRam ){
+        ptrMsgConfig->CanPdu.u8CanDedBuf = 255;
         txbuf--;
         continue;
       }
@@ -71,11 +73,26 @@ void CanIf_Init(uint8_t CanChannelId, CanIf_MsgObjType CanIfMsgConfig){
 void CanIf_Transmit(uint8_t CanChannelId, uint8_t MsgId){
   
   CanIf_MessageConfigType *ptrMsgConfig;
+  const MCan_ConfigType *mcan_config;
+
+    /* Check if Channel received is whithin the two available, if not, do nothing */
+  switch (CanChannelId){
+    case 0:
+      mcan_config = &mcan0Config;
+    break;
+    case 1:
+      mcan_config = &mcan1Config;
+    break;
+    default:
+      return;
+    break;  
+  }
+
 
   int i;
-  for (i = 0; i < CanInternMsgConfig.CanNumberOfMsgs; i++){
-    if(MsgId == CanInternMsgConfig.CanIfMessageConfig[i]->CanMsgIdNumber ){
-      ptrMsgConfig = CanInternMsgConfig.CanIfMessageConfig[i];
+  for (i = 0; i < (uint8_t)CanInternMsgConfig->CanNumberOfMsgs; i++){
+    if(MsgId == CanInternMsgConfig->CanIfMessageConfig[i].CanMsgIdNumber ){
+      ptrMsgConfig = &CanInternMsgConfig->CanIfMessageConfig[i];
       break;
     }
   }
@@ -88,26 +105,19 @@ void CanIf_Transmit(uint8_t CanChannelId, uint8_t MsgId){
     return;
   }
 
-  if (!ptrMsgConfig->CanPdu.CanSdu){
+  if (!ptrMsgConfig->CanPdu.CanSduRam){
     #ifdef _CANIF_DBG_
     printf( "\n\r-- CANIF::ERROR TX buffer for message 0x%x not allocated. --\n\r", MsgId ) ;
     #endif
     return;
   }
 
-  /* TODO - Need funtion to write data into the buffer, using test data */
-  uint8_t *ptrTxBuf = ptrMsgConfig->CanPdu.CanSdu;
+  uint8_t *ptrCanSdu = ptrMsgConfig->CanPdu.CanSdu;
+  uint8_t *ptrCanSduRam = ptrMsgConfig->CanPdu.CanSduRam;
   for (i = 0; i < ptrMsgConfig->CanPdu.CanDlc; ++i)
   {
-    *ptrTxBuf++ = 0x8 ;
+    *ptrCanSdu++ = *ptrCanSduRam++ ;
   }
   
-
-
-
-
-
-
-
-
+  MCAN_SendTxDedBuffer( mcan_config, ptrMsgConfig->CanPdu.u8CanDedBuf );
 }

@@ -1,8 +1,4 @@
-CONVERTING	D:\02_Work\Iteso\ESE\2017\Com\Reference\BaseProject\workspace\Debug\BaseProject.elf
-LOADING	D:\02_Work\Iteso\ESE\2017\Com\Reference\BaseProject\workspace\Debug\BaseProject.elf
-ANALYZING
-ANALYZING
+INITIALIZING	Emulator: EDBG CMSIS-DAP   Debugger: On-chip
 EMULATION	POD: Cortex (JTAG,SWD)   CPU: Cortex-M7
 DEBUG	PROTOCOL: SWD; RESET: SoC
-LOADING 	44764 bytes
-PROGRAMMING	Atmel ATSAMV7 (2048 kB) (3 sectors)
+CPU	CPUID=0x410FC271 (M7 variant 0, revision 1)
