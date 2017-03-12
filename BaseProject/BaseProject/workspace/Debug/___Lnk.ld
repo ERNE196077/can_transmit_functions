@@ -27,34 +27,34 @@
 /* EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                           */
 /* ---------------------------------------------------------------------------- */
 
-INPUT (C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\dbg_console.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\board_lowlevel.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\board_memories.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\MemAlloc.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\exceptions.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\pio.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\mpu.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\pmc.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\uart.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\wdt.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\pio_it.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\supc.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\tc.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\xdma_hardware_interface.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\xdmac.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\xdmad.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\mcan.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\syscalls.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\system_sam.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\timetick.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\app_scheduler.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\Tasks.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\cannm.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\led.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\canif_config.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\main.o 
-C:\Users\ernesto\Documents\ITESO\2do_Semestre\Task4_Team4\can_transmit_functions\BaseProject\BaseProject\workspace\Debug\startup_sam.o)
+INPUT (C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\dbg_console.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\board_lowlevel.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\board_memories.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\MemAlloc.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\exceptions.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\pio.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\mpu.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\pmc.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\uart.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\wdt.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\pio_it.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\supc.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\tc.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\xdma_hardware_interface.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\xdmac.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\xdmad.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\mcan.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\syscalls.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\system_sam.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\timetick.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\app_scheduler.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\Tasks.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\cannm.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\led.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\canif.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\canif_config.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\main.o 
+C:\Task4_Team4\BaseProject\BaseProject\workspace\Debug\startup_sam.o)
 
 /*------------------------------------------------------------------------------
  *      Linker script for running in internal FLASH on the ATSAMV71Q21

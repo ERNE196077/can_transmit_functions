@@ -13,10 +13,7 @@ int var = 0;
 
 void vfnTsk_1ms(void)
 {
-  if(!var){
-  	var++;
-  	
-  }
+
 }
 
 void vfnTsk_2msA(void)
@@ -41,7 +38,12 @@ void vfnTsk_50ms(void)
 
 void vfnTsk_100ms(void)
 {
-  			
+  	  if(!var){
+  	var++;
+  	CanIf_Init(1, CanMsgObj);
+  }else{
+    CanIf_Transmit(1,3);
+  }		
 
   
 }
